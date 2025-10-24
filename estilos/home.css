@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {background-color: #393939;}
+
+nav { /*FONDO DE BARRA DE NAVEGACION*/
+        background-color:#a27b66;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        padding: 0 190px 1%;
+        }
+
+.Logoprincipal { /*LOGO DE SOUTH PARK*/
+        padding: 1% 0 0 ;
+}
+
+.Elementosnav {/*LINKS DE EL NAV*/
+        padding: 50px 0 0 0;
+        font-size: 22px;
+        color: aliceblue;
+}
+
+a {/*ESTILO LINKS*/
+        color: white;
+        text-decoration: none;
+}
+main { /*COLUMNAS*/
+        display: flex;
+        flex-direction: column;
+        padding: 6% 190px;
+}
+
+section {
+        padding: 20px 20px 20px;
+        background-color: #a27b66;
+        box-sizing:border-box;
+        height: fit-content;
+        text-align: justify;
+        font-size: 24px;
+}
+
+
+
