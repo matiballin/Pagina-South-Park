@@ -1,3 +1,8 @@
+@font-face {
+        font-family: "South-Park";
+        src: url(../Fuentes/south\ park.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,47 +10,95 @@
   list-style: none;
 }
 
-body {background-color: #393939;}
+body {/*COLOR DE LA PAGINA*/
+        background-color:#8fb8d3;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding-top: 150px;
+}
 
-nav { /*FONDO DE BARRA DE NAVEGACION*/
-        background-color:#a27b66;
+nav {/*FONDO DE BARRA DE NAVEGACION*/
+        background-color:#5f3620;
         position: fixed;
         display: flex;
         justify-content: space-between;
         top: 0%;
         left: 0%;
         right: 0%;
-        padding: 0 190px 1%;
+        z-index: 10;
         }
 
-.Logoprincipal { /*LOGO DE SOUTH PARK*/
-        padding: 1% 0 0 ;
+.Logoprincipal {/*LOGO DE SOUTH PARK*/
+        padding: 1% 7.5%;
 }
 
-.Elementosnav {/*LINKS DE EL NAV*/
-        padding: 50px 0 0 0;
-        font-size: 22px;
-        color: aliceblue;
+ul {/*LINKS DE EL NAV*/
+        display: flex;
+        padding: 2% 7.5%;
+        gap: 30px;
 }
 
 a {/*ESTILO LINKS*/
         color: white;
         text-decoration: none;
+        font-family: South-Park;
+        font-size: 18px;
+        transition: transform 0.3s ease;
 }
+
+a:hover { /*ANIMACION NAV*/
+        color:#a27b66;
+        transform: scale(1.05);
+}
+
 main { /*COLUMNAS*/
         display: flex;
-        flex-direction: column;
-        padding: 6% 190px;
-}
-
-section {
-        padding: 20px 20px 20px;
+        align-content: space-between;
+        max-width: 2000px;
+        margin: auto;
         background-color: #a27b66;
-        box-sizing:border-box;
-        height: fit-content;
-        text-align: justify;
-        font-size: 24px;
 }
 
+section { /*POSICION IMAGEN*/
+        padding: 1% 1%;
+        text-align: justify;
+}
 
+.seccionimg {/*POSICION IMAGEN*/
+        padding: 4% 4% 4%;
+        transition: transform 0.3s ease;                
+}
 
+.seccionimg img:hover {/*EFECTO IMG*/
+        transform: scale(1.05);
+}
+
+article {/*UBICACION DEL TEXTO MAIN*/
+        padding: 2% 2% 2%;
+        width: 100%;
+}
+
+p {/*DISEÑO TEXTO*/
+        font-size: 130%;
+        padding: 1% 1% 1%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+h2 {/*DISEÑO TITULOS*/
+        font-size: 170%;
+        color: #5f3620;
+        text-decoration: underline #668aa2;
+        font-family: South-Park;
+}
+
+footer {
+        background-color: black;
+        display: flex;
+        position: relative;
+        bottom: 0%;
+}
+
+.footer {
+        font-size: 70%;
+}
