@@ -10,12 +10,13 @@
   list-style: none;
 }
 
-body {/*COLOR DE LA PAGINA    LO CAMBIE PADDING TOP*/
-        background-color:#8fb8d3;
+body {/*COLOR DE LA PAGINA*/
+        background-color: #c7b69f;
         display: flex;
         flex-direction: column;
         height: 100%;
-        padding-top: 100px;
+        padding-top: 8%;
+        
 }
 
 nav {/*FONDO DE BARRA DE NAVEGACION*/
@@ -28,18 +29,20 @@ nav {/*FONDO DE BARRA DE NAVEGACION*/
         right: 0%;
         z-index: 10;
         }
-.imgmain{   /* NUEVO*/
+
+.imgmain{ /*ANIMACION IMAGEN HERO*/
         transition: 0.5s;
 }
 
-.Logoprincipal {/*LOGO DE SOUTH PARK    LO CAMBIE PADDING*/
+.Logoprincipal {/*LOGO DE SOUTH PARK*/
         padding: 2% 7.5%;
 }
 
-ul {/*LINKS DE EL NAV    LO CAMBIE GAP y PADDING COPIE EL DE EL LOGO*/
+
+ul {/*LINKS DE EL NAV*/
         display: flex;
         align-items: center;
-        gap: 15px;
+        gap: 20px;
         padding: 2% 7.5%;
 }
 
@@ -51,31 +54,39 @@ a {/*ESTILO LINKS    LO CAMBIE FONT SIZE*/
         transition: font-size 0.3s ease;
 }
 
-li:hover a { /*ANIMACION NAV    LO CAMBIE FONT SIZE*/
+li:hover a { /*ANIMACION NAV*/
         color:#a27b66;
         font-size: 1rem;
 }
 
-main { /*COLUMNAS    LO CAMBIE MAX WIDTH*/
+main { /*COLUMNAS*/
         display: flex;
         align-content: space-between;
         max-width: 1300px;
+        max-height: fit-content;
         margin: auto;
         background-color: #a27b66;
+        border: 3px solid #5f3620;
+        border-radius: 2%;
 }
 
 section { /*POSICION IMAGEN*/
-        padding: 1% 1%;
+        padding: 1% 1% ;
         text-align: justify;
+        
 }
 
-.seccionimg {/*POSICION IMAGEN    LO CAMBIE PADDING*/
-        padding: 5% 2% 2%;
-        transition: transform 0.3s ease;                
+.seccionimg {/*POSICION IMAGEN*/
+        padding: 5% 5% 2%;
+        transition: transform 0.3s ease;
+                        
 }
 
-.seccionimg img:hover {/*EFECTO IMG    LO CAMBIE SCALE*/
+.seccionimg img:hover {/*EFECTO IMG*/
         transform: scale(1.03);
+        border: 3px solid #5f3620;
+        border-radius: 3%;  
+        
 }
 
 article {/*UBICACION DEL TEXTO MAIN*/
@@ -83,26 +94,27 @@ article {/*UBICACION DEL TEXTO MAIN*/
         width: 100%;
 }
 
-p {/*DISEÑO TEXTO    LO CAMBIE FONT SIZE*/
+p {/*DISEÑO TEXTO*/
         font-size: 90%; 
         padding: 1% 1% 1%;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
 
-h2 {/*DISEÑO TITULOS    LO CAMBIE FONT SIZE*/
+h2 {/*DISEÑO TITULOS*/
         font-size: 120%;
         color: #5f3620;
-        text-decoration: underline #668aa2;
+        text-decoration: underline #3a6a8a;
         font-family: South-Park;
 }
 
-footer {
-        background-color: black;
-        display: flex;
-        position: relative;
-        bottom: 0%;
-}
-
-.footer {
-        font-size: 70%;
+footer {/*DISEÑO FOOTER Y TAMAÑOS*/
+        min-height: 20px;
+        background-color: rgb(57, 57, 57);
+        color: rgb(255, 255, 255);
+        font-family: South-park;
+        padding-top: 1%;
+        text-align: center;
+        font-size: 10px;
+        margin-top: 1%;
+        border-top: 3px solid black;
 }
