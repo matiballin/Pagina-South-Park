@@ -10,12 +10,12 @@
   list-style: none;
 }
 
-body {/*COLOR DE LA PAGINA*/
+body {/*COLOR DE LA PAGINA    LO CAMBIE PADDING TOP*/
         background-color:#8fb8d3;
         display: flex;
         flex-direction: column;
         height: 100%;
-        padding-top: 150px;
+        padding-top: 100px;
 }
 
 nav {/*FONDO DE BARRA DE NAVEGACION*/
@@ -28,34 +28,38 @@ nav {/*FONDO DE BARRA DE NAVEGACION*/
         right: 0%;
         z-index: 10;
         }
-
-.Logoprincipal {/*LOGO DE SOUTH PARK*/
-        padding: 1% 7.5%;
+.imgmain{   /* NUEVO*/
+        transition: 0.5s;
 }
 
-ul {/*LINKS DE EL NAV*/
-        display: flex;
+.Logoprincipal {/*LOGO DE SOUTH PARK    LO CAMBIE PADDING*/
         padding: 2% 7.5%;
-        gap: 30px;
 }
 
-a {/*ESTILO LINKS*/
+ul {/*LINKS DE EL NAV    LO CAMBIE GAP y PADDING COPIE EL DE EL LOGO*/
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 2% 7.5%;
+}
+
+a {/*ESTILO LINKS    LO CAMBIE FONT SIZE*/
         color: white;
         text-decoration: none;
         font-family: South-Park;
-        font-size: 18px;
-        transition: transform 0.3s ease;
+        font-size: 12px;
+        transition: font-size 0.3s ease;
 }
 
-a:hover { /*ANIMACION NAV*/
+li:hover a { /*ANIMACION NAV    LO CAMBIE FONT SIZE*/
         color:#a27b66;
-        transform: scale(1.05);
+        font-size: 1rem;
 }
 
-main { /*COLUMNAS*/
+main { /*COLUMNAS    LO CAMBIE MAX WIDTH*/
         display: flex;
         align-content: space-between;
-        max-width: 2000px;
+        max-width: 1300px;
         margin: auto;
         background-color: #a27b66;
 }
@@ -65,13 +69,13 @@ section { /*POSICION IMAGEN*/
         text-align: justify;
 }
 
-.seccionimg {/*POSICION IMAGEN*/
-        padding: 4% 4% 4%;
+.seccionimg {/*POSICION IMAGEN    LO CAMBIE PADDING*/
+        padding: 5% 2% 2%;
         transition: transform 0.3s ease;                
 }
 
-.seccionimg img:hover {/*EFECTO IMG*/
-        transform: scale(1.05);
+.seccionimg img:hover {/*EFECTO IMG    LO CAMBIE SCALE*/
+        transform: scale(1.03);
 }
 
 article {/*UBICACION DEL TEXTO MAIN*/
@@ -79,14 +83,14 @@ article {/*UBICACION DEL TEXTO MAIN*/
         width: 100%;
 }
 
-p {/*DISEÑO TEXTO*/
-        font-size: 130%;
+p {/*DISEÑO TEXTO    LO CAMBIE FONT SIZE*/
+        font-size: 90%; 
         padding: 1% 1% 1%;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
 
-h2 {/*DISEÑO TITULOS*/
-        font-size: 170%;
+h2 {/*DISEÑO TITULOS    LO CAMBIE FONT SIZE*/
+        font-size: 120%;
         color: #5f3620;
         text-decoration: underline #668aa2;
         font-family: South-Park;
