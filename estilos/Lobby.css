@@ -9,6 +9,6 @@
 
 .seccionimg img:hover {/*EFECTO IMG*/
         transform: scale(1.03);
-        border: 3px solid #5f3620;
+        border: 3px solid #c7b69f;
         border-radius: 3%;    
 }

@@ -16,8 +16,7 @@ body {/*COLOR DE LA PAGINA*/
         min-height: 100vh;
         background-color: #c7b69f;
         height: 100%;
-        padding-top: 8%;
-        
+        padding-top: 8%;    
 }
 
 nav {/*FONDO DE BARRA DE NAVEGACION*/
@@ -61,13 +60,14 @@ main { /*COLUMNAS*/
         align-content: space-between;
         max-width: 1300px;
         max-height: fit-content;
-        margin: auto;
+        margin:auto;
+        margin-top: 1%;
         background-color: #a27b66;
         border: 3px solid #5f3620;
         border-radius: 2%;
 }
 
-section { /*UBICACION IMAGEN Y TEXTO*/
+section { /*UBICACION IMAGEN*/
         padding: 1% 1% ;
         text-align: justify;
 }
@@ -96,6 +96,7 @@ footer {/*DISEÑO FOOTER Y TAMAÑOS*/
         color: rgb(255, 255, 255);
         font-family: South-park;
         padding-top: 1%;
+        padding-bottom: 1%;
         text-align: center;
         font-size: 10px;
         margin-top: 2%;
