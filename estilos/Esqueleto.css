@@ -91,6 +91,12 @@ h2 {/*DISEÑO TITULOS */
         font-family: South-Park;
 }
 
+h3 {/*SUBSTITULOS*/
+    font-family: South-park;
+    color:#c7b69f;
+    margin: 1%;
+}
+
 footer {/*DISEÑO FOOTER Y TAMAÑOS*/
         min-height: 20px;
         background-color: rgb(57, 57, 57);
@@ -104,20 +110,17 @@ footer {/*DISEÑO FOOTER Y TAMAÑOS*/
         border-top: 3px solid black;
 }
 
-.contenedorizquierdo {
+.contenedorizquierdo {/*ESTRUCTURA*/
         border-right: 0px;
         border-bottom-right-radius: 0%;
         border-top-right-radius: 0%;
         
 }
 
-.contenedorderecho {
+.contenedorderecho {/*ESTRUCTURA*/
         border-left: 0px;
         border-bottom-left-radius: 0%;
         border-top-left-radius: 0%;
-}
-
-.contenedorderecho {
         transition: transform 0.4s ease;
 }
 

@@ -1,31 +1,18 @@
-@font-face {
-        font-family: "South-Park";
-        src: url(../Fuentes/south\ park.ttf);
+
+
+.contenedorizq2 {
+    border-radius: 0%;
+    border-right: 0px;
+    
 }
 
-h3 {/*SUBSTITULOS*/
-    font-family: South-park;
-    color:#c7b69f;
-    margin: 1%;
+.contenedorder2 {
+    border-radius: 0%;
+    border-left: 0px;
+    
 }
 
-.p3izquierda {/*SUBPARRAFOS*/
-    margin-left: 2%;
-    margin-right: 2%;
-    font-size: 90%;
-    width: 80%;
-}
-
-.p3derecha {/*SUBPARRAFOS*/
-    text-align: right;
-    margin-left: 2%;
-    margin-right: 2%;
-    font-size: 90%;
-    width: 80%;
-}
-
-.personajesimg {
-    padding: 6% 6% 6%;
-
+section {
+    margin-top: 0px;
 }
 

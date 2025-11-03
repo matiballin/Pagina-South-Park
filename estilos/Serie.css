@@ -1,14 +1,3 @@
-@font-face {
-        font-family: "South-Park";
-        src: url(../Fuentes/south\ park.ttf);
-}
-
-h3 {/*SUBSTITULOS*/
-    font-family: South-park;
-    color:#c7b69f;
-    padding: 1%;
-}
-
 .p2 {/*SUBPARRAFOS*/
     margin-left: 2%;
     margin-right: 2%;
