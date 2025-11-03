@@ -116,3 +116,14 @@ footer {/*DISEÑO FOOTER Y TAMAÑOS*/
         border-bottom-left-radius: 0%;
         border-top-left-radius: 0%;
 }
+
+.contenedorderecho {
+        transition: transform 0.4s ease;
+}
+
+.contenedorderecho img:hover {/*EFECTO IMG*/
+        transition: 0.4s;
+        transform: scale(1.03);
+        border: 3px solid #c7b69f;
+        border-radius: 3%;    
+}

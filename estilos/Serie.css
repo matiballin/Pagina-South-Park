@@ -3,42 +3,15 @@
         src: url(../Fuentes/south\ park.ttf);
 }
 
-.imgcreadores { /*IMAGEN CREADORES JUNTOS*/
-    padding-top: 5%;
-    padding-right: 4%;
-}
-
-.imgcreadores img:hover { /*ANIMACION IMAGEN CREADORES JUNTOS*/
-    transform: scale(1.03);
-    transition: 0.3s;
-    border: 3px solid #c7b69f;
-    border-radius: 2%;    
-}
-
 h3 {/*SUBSTITULOS*/
     font-family: South-park;
     color:#c7b69f;
-    margin: 1%;
+    padding: 1%;
 }
 
 .p2 {/*SUBPARRAFOS*/
     margin-left: 2%;
     margin-right: 2%;
     font-size: 90%;
-}
-
-.imgcreadores2 {/*IMAGEN CREADORES SEPARADOS*/
-    height: fit-content;
-    padding-top: 8%;
-}
-
-.imgpueblo {/*IMAGEN PUEBLO*/
-    padding: 2% 2% 2%;
-}
-
-.imgpueblo img:hover {/*ANIMACION IMAGEN PUEBLO*/
-    transform: scale(1.03);
-    transition: 0.3s;
-    border: 3px solid #c7b69f;
-    border-radius: 2%;    
+    width: fit-content;
 }
