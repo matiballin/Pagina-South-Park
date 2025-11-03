@@ -1,14 +1,15 @@
-.imgmain{ /*ANIMACION IMAGEN HERO*/
+
+.contenedorderecho {
+        transition: transform 0.3s ease;
+}
+
+.contenedorderecho img:hover {/*EFECTO IMG*/
         transition: 0.5s;
-}
-
-.seccionimg {/*POSICION IMAGEN*/
-        padding: 2% 2% 2%;
-        transition: transform 0.3s ease;                
-}
-
-.seccionimg img:hover {/*EFECTO IMG*/
         transform: scale(1.03);
         border: 3px solid #c7b69f;
         border-radius: 3%;    
+}
+
+.titulomedio {
+        margin-top: 2%;
 }
