@@ -64,15 +64,13 @@ section {/*CONTENEDORES EN COMLUMNA*/
         flex: auto;
         display: flex;
         align-content: space-between;
-        margin-top: 1%;
 }
 
 article {/*CARACTERISTICAS DE LOS ARTICULOS*/
         background-color: #a27b66;
         border: 3px solid #5f3620;
-        padding: 2% 2% 2% 2% ;
         text-align: justify;
-        padding: 3% 3% 3%;
+        padding: 2% 2% 2%;
         width: 100%;
         width: fit-content;
         border-radius: 2%;
@@ -89,12 +87,13 @@ h2 {/*DISEÑO TITULOS */
         color: #5f3620;
         text-decoration: underline #3a6a8a;
         font-family: South-Park;
+        padding-bottom: 1.5%;
+        padding-top: 1.5%;
 }
 
 h3 {/*SUBSTITULOS*/
         font-family: South-park;
-        color:#c7b69f;
-        margin: 1%;
+        color:#c7b69f;  
 }
 
 footer {/*DISEÑO FOOTER Y TAMAÑOS*/

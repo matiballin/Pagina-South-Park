@@ -19,6 +19,7 @@ h2{/*ESPACIO ENTRE TITULOS FUERA DE LA SECCION*/
     border: 3px solid #5f3620 ;
     border-radius: 1.5%;
     background-color:#a27b66 ;
+    padding: 1% 1% ;
 }
 
 .contenedor2personajes img {/*POSICION Y BORDES DE LAS IMAGENES DE LOS DOBLADORES*/
@@ -29,6 +30,7 @@ h2{/*ESPACIO ENTRE TITULOS FUERA DE LA SECCION*/
     display: flex;
     height: 300px;
     width: 640px;
+    
 }
 
 .contenedor3dobladores img:hover {/*ANIMACION IMAGENES DE LOS DOBLADORES*/
