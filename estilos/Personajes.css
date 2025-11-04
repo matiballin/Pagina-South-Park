@@ -1,38 +1,41 @@
 
-h2{
-    padding-bottom: 1%;
-    padding-top: 1%;
+h2{/*ESPACIO ENTRE TITULOS FUERA DE LA SECCION*/
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
 }
 
-section {
-    margin-top: 0px;
-}
-
-
-.contenedorpersonajes article {
-
+.contenedorpersonajes article {/*SOBREESCRITURA DE ARTICULO*/
     border-radius: 5%;
     border: none;
-
 }
 
-
-.contenedor2personajes {
+.contenedor2personajes { /*MINIARTICULOS DENTRO DE LA SECCION PERSONAJES*/
     display: flex;
     height: 300px;
     width: 640px;
 }
 
-.contenedorpersonajes {
+.contenedorpersonajes {/*ARREGLO BORDES SECCION*/
     border: 3px solid #5f3620 ;
     border-radius: 1.5%;
     background-color:#a27b66 ;
 }
 
-.contenedor2personajes img {
-    padding: 3% 3% 3% ;
-    border-radius: 15%;
-    
+.contenedor2personajes img {/*POSICION Y BORDES DE LAS IMAGENES DE LOS DOBLADORES*/
+    transition: transform 0.4s ease;
+}
+
+.contenedor3dobladores {/*MINIARTICULOS DENTRO DE LA SECCION DOBLADORES*/
+    display: flex;
+    height: 300px;
+    width: 640px;
+}
+
+.contenedor3dobladores img:hover {/*ANIMACION IMAGENES DE LOS DOBLADORES*/
+    transition: 0.5s;
+    border-radius: 8%;
+    transform: scale(1.03);
+    border: 3px solid #c7b69f;
 }
 
 
