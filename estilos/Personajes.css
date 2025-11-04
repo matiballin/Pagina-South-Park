@@ -1,18 +1,38 @@
 
-
-.contenedorizq2 {
-    border-radius: 0%;
-    border-right: 0px;
-    
-}
-
-.contenedorder2 {
-    border-radius: 0%;
-    border-left: 0px;
-    
+h2{
+    padding-bottom: 1%;
+    padding-top: 1%;
 }
 
 section {
     margin-top: 0px;
 }
+
+
+.contenedorpersonajes article {
+
+    border-radius: 5%;
+    border: none;
+
+}
+
+
+.contenedor2personajes {
+    display: flex;
+    height: 300px;
+    width: 640px;
+}
+
+.contenedorpersonajes {
+    border: 3px solid #5f3620 ;
+    border-radius: 1.5%;
+    background-color:#a27b66 ;
+}
+
+.contenedor2personajes img {
+    padding: 3% 3% 3% ;
+    border-radius: 15%;
+    
+}
+
 
