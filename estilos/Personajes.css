@@ -30,7 +30,6 @@ h2{/*ESPACIO ENTRE TITULOS FUERA DE LA SECCION*/
     display: flex;
     height: 300px;
     width: 640px;
-    
 }
 
 .contenedor3dobladores img:hover {/*ANIMACION IMAGENES DE LOS DOBLADORES*/
