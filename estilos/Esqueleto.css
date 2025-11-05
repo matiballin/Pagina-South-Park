@@ -113,10 +113,10 @@ footer {/*DISEÑO FOOTER Y TAMAÑOS*/
         border-right: 0px;
         border-bottom-right-radius: 0%;
         border-top-right-radius: 0%;
-        
 }
 
 .contenedorderecho {/*ESTRUCTURA*/
+        padding: 2% 2%;
         border-left: 0px;
         border-bottom-left-radius: 0%;
         border-top-left-radius: 0%;
