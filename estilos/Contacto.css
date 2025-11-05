@@ -1,0 +1,29 @@
+span {
+    font-family: South-park;
+    color:#c7b69f;
+}
+
+input {
+    width: 200px;
+    display: flex;
+    margin-left: 2%;
+    margin: 1%;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+}
+
+article {
+    border: none;
+}
+
+section {
+    border: 3px solid #5f3620;
+    border-radius: 3%;
+}
+
+fieldset {
+    border: 0;
+}
