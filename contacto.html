@@ -18,11 +18,11 @@
     </h1>
 
     <ul>
-        <li><a style="text-decoration: underline;" href="Serie.html">Serie</a></li>
+        <li><a href="Serie.html">Serie</a></li>
         <li><a href="Personajes.html">Personajes/Elenco</a></li>
         <li><a href="Temporadas.html">Temporadas</a></li>
         <li><a href="Curiosidades.html">Curiosidades</a></li>
-        <li><a href="Contacto.html">Contacto</a></li>
+        <li><a href="Contacto.html" style="text-decoration: underline;">Contacto</a></li>
     </ul>
 
 </nav>
@@ -32,25 +32,32 @@
 
         <section>
 
-            <article>
+            <article class="contenedorformgeneral">
 
                 <form action="Confirmacion.html">
 
-                        <fieldset>
-
+                    <fieldset class="contenedorform1">
                             <span>Nombre</span>
                                 <input type="text" required placeholder="Ingrese su nombre" autocomplete="off" minlength="2">
-                            <span>Apellido</span>
-                                <input type="text" required placeholder="Ingrese su apellido" autocomplete="off" minlength="2">
+                                
                             <span>Email</span>
                                 <input type="email" required placeholder="Ingrese su email" autocomplete="off">
                         
+                    </fieldset>
+
+                    <fieldset class="contenedorform2">
+
+                            <span>Asunto</span>
+                                <input type="text" required placeholder="Ingrese el asunto" autocomplete="off" minlength="2">
                             <span>Mensaje</span>
-                                <textarea name="..." id="..." placeholder="Ingrese su mensaje aqui..."></textarea>
-                            <input type="submit">
-                            
-                        </fieldset>
-                    
+                                <textarea name="..." id="..." placeholder="Ingrese su mensaje aqui... (Maximo de 60 caracteres)" maxlength=></textarea>
+
+                    </fieldset>
+
+                    <fieldset class="contenedorform3">
+                        <input type="submit">
+                    </fieldset>
+
                 </form>
 
             </article>
@@ -59,12 +66,24 @@
 
 </main>
 
-<footer class="footerdemas">
-        <p>Sitio web creado por Matias Fabiano</p>
-        <p>Copyright © 2024 South Park Studios. All rights reserved.</p>
-        <p>Este sitio web es solo con fines educativos y no está afiliado con South Park Studios.</p>
-        <img src="./imagenes/PNG personajes/toallin png.png" alt="toallin" height="75" title="Toallin">
-    </footer>
+<footer>
+
+    <div>
+        Sitio web creado por Matias Fabiano
+    </div>
+    <div>
+        Copyright © 2024 South Park Studios. All rights reserved.
+    </div>
+    <div>
+        Este sitio web es solo con fines educativos y no está afiliado con South Park Studios.
+    </div>
+        
+    <div class="imgfooter">
+        <img src="./imagenes/PNG personajes/toallin png.png" alt="LogoToallin" width="40px" title="Toallin">
+    </div>
+        
+</footer>
+    
 
 </body>
 </html>

@@ -1,29 +1,71 @@
-span {
-    font-family: South-park;
-    color:#c7b69f;
-}
-
-input {
-    width: 200px;
-    display: flex;
-    margin-left: 2%;
-    margin: 1%;
-}
-
-textarea {
-    width: 500px;
-    height: 200px;
-}
-
 article {
-    border: none;
+    width: 1300px;
 }
 
-section {
-    border: 3px solid #5f3620;
-    border-radius: 3%;
+span {
+padding-top: 2%;
+}
+
+.contenedorformgeneral {
+    padding: 3%;
+}
+
+.contenedorform1 {
+    display: flex;
+    flex-direction: row;
+    font-family: South-Park;
+    color: #c7b69f;
+    margin-bottom: 10px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contenedorform1 input {
+    padding: 2%;
+    border: 2px solid #5f3620;
+    border-radius: 20px;
+}
+
+.contenedorform2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: South-Park;
+    color: #c7b69f;
+    gap: 5px;
+}
+
+.contenedorform2 input {
+    align-content: center;
+    width: 60%;
+    padding: 2%;
+    border: 2px solid #5f3620;
+    border-radius: 20px;
+}
+
+.contenedorform2 textarea {
+    width: 100%;
+    height:200px;
+    padding: 2% 2% 2%;
+    border: 2px solid #5f3620;
+    border-radius: 20px;
+}
+
+.contenedorform3 {
+    display: flex;
+    justify-content: end;
+    margin-top: 1%;
+}
+
+.contenedorform3 input {
+    padding: 1%;
+    color: #c7b69f;
+    background-color: #5f3620;
+    border: 1px solid #c7b69f;
+    border-radius: 10px;
 }
 
 fieldset {
     border: 0;
 }
+
