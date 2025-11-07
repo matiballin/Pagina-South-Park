@@ -97,6 +97,8 @@ h3 {/*SUBSTITULOS*/
 }
 
 footer {/*DISEÑO FOOTER Y TAMAÑOS*/
+        display: flex;
+        justify-content: space-evenly;
         min-height: 20px;
         background-color: rgb(57, 57, 57);
         color: rgb(255, 255, 255);
@@ -128,4 +130,22 @@ footer {/*DISEÑO FOOTER Y TAMAÑOS*/
         transform: scale(1.03);
         border: 3px solid #c7b69f;
         border-radius: 3%;    
+}
+
+.contenedorfooter {
+        text-align: center;
+        width: 300px;
+}
+
+hr {
+        margin: 4%;
+        background-color: black ;
+}
+
+.pfooter {
+        color: black;
+        font-size: 18px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-family: South-Park;
 }
