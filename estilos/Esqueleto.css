@@ -16,7 +16,7 @@ body {/*COLOR DE LA PAGINA*/
         min-height: 100vh;
         background-color: #c7b69f;
         height: 100%;
-        padding-top: 8%;    
+        padding-top: 8%;  
 }
 
 nav {/*FONDO DE BARRA DE NAVEGACION*/
@@ -58,6 +58,7 @@ main { /*TAMAÑO DEL CONTENIDO*/
         max-width: 1300px;
         max-height: fit-content;
         margin:auto;
+        margin-bottom: 2%;
 }
 
 section {/*CONTENEDORES EN COMLUMNA*/
@@ -97,18 +98,10 @@ h3 {/*SUBSTITULOS*/
 }
 
 footer {/*DISEÑO FOOTER Y TAMAÑOS*/
+        background-color: rgb(65, 64, 64);
         display: flex;
         justify-content: space-evenly;
-        min-height: 20px;
-        background-color: rgb(57, 57, 57);
-        color: rgb(255, 255, 255);
-        font-family: South-park;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        text-align: center;
-        font-size: 10px;
-        margin-top: 2%;
-        border-top: 3px solid black;
+
 }
 
 .contenedorizquierdo {/*ESTRUCTURA*/
@@ -132,20 +125,50 @@ footer {/*DISEÑO FOOTER Y TAMAÑOS*/
         border-radius: 3%;    
 }
 
-.contenedorfooter {
-        text-align: center;
-        width: 300px;
+.articulofooter {/*SECCIONES FOOTER*/
+        background-color: rgb(65, 64, 64);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        width: 400px;
+        height: fit-content;
+        padding: 20px;
+        border: 2px solid rgb(48, 48, 48);
+        margin: 2%;
 }
 
-hr {
-        margin: 4%;
-        background-color: black ;
+.articulofooter a {/*POSICION ELEMENTOS DE LAS SECCIONES DEL FOOTER*/
+        margin-left: 4%;
+        color:black;
+        transition: font-size 0.3s ease;
 }
 
-.pfooter {
-        color: black;
-        font-size: 18px;
-        margin-top: 1%;
-        margin-bottom: 1%;
+.articulofooter a:hover {/*ANIMACION ELEMENTOS DE LAS SECCIONES DEL FOOTER*/
+        font-size: 1rem;
+}
+
+h6 {/*TITULOS DE LAS SECCIONES DE EL FOOTER*/
         font-family: South-Park;
+        color: #a27b66;
+        font-size: 18px;
+}
+
+figure {/*IMAGENES DE LAS REDES SOCIALES*/
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: center;
+}
+
+figure p {/*TEXTO AL LADO DE LAS IMAGENES DE LAS REDES SOCIALES*/
+        font-size: 16px;
+        font-family: South-Park;
+        color: black;
+}
+.segundofooter {/*BARRA NEGRA DEL FINAL*/
+        background-color: rgb(27, 27, 27);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
 }
