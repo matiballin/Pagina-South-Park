@@ -1,0 +1,49 @@
+.contenedorerror {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.contenedorerror img {
+    border-radius: 2%;
+}
+
+article {
+    align-content: center;
+    width: 600px;
+    height: 400px;
+}
+
+h3 {
+    padding-bottom: 2%;
+}
+
+h4 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: South-Park;
+    color: #5f3620 ;
+}
+
+.contenedorboton {
+    display: flex;
+    align-content: end;
+    background-color: #5f3620;
+    border: 2px solid #c7b69f;
+    transition: font-size 0.2s ease;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.contenedorboton a {
+    margin: 3px;
+}
+
+.contenedorboton a:hover {
+    font-size: 1rem;
+    margin-top: 5px;
+    text-decoration: 1px underline;
+}
+
