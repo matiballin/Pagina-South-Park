@@ -1,0 +1,14 @@
+.titulomedio {
+    margin-top: 1%;
+}
+
+.seccionfinal1 {
+    display: flex;
+    border: none;
+    align-items: center;
+    gap: 20px;
+}
+
+.articuloderecha {
+    height: fit-content;
+}
