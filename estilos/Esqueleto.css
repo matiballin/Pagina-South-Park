@@ -131,7 +131,7 @@ footer {/*DISEÑO FOOTER Y TAMAÑOS*/
         flex-direction: column;
         align-items: flex-start;
         gap: 20px;
-        width: 400px;
+        width: 300px;
         height: fit-content;
         padding: 20px;
         border: 2px solid rgb(48, 48, 48);
@@ -142,10 +142,15 @@ footer {/*DISEÑO FOOTER Y TAMAÑOS*/
         margin-left: 4%;
         color:black;
         transition: font-size 0.3s ease;
+        font-size: 14px;
 }
 
 .articulofooter a:hover {/*ANIMACION ELEMENTOS DE LAS SECCIONES DEL FOOTER*/
         font-size: 1rem;
+}
+
+.articulofooter figure:hover {
+        
 }
 
 h6 {/*TITULOS DE LAS SECCIONES DE EL FOOTER*/
@@ -162,7 +167,7 @@ figure {/*IMAGENES DE LAS REDES SOCIALES*/
 }
 
 figure p {/*TEXTO AL LADO DE LAS IMAGENES DE LAS REDES SOCIALES*/
-        font-size: 16px;
+        font-size: 14px;
         font-family: South-Park;
         color: black;
 }
