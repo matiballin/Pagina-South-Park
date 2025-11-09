@@ -9,3 +9,9 @@
     text-align: center;
     padding-top: 2%;
 }
+
+.seccioncreadores {/*CONTENEDOR GRANDE CREADORES*/
+    border: 3px solid #5f3620;
+    background-color:#a27b66;
+    border-radius: 1%;
+}
