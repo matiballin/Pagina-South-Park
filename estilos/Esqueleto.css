@@ -169,6 +169,8 @@ figure p {/*TEXTO AL LADO DE LAS IMAGENES DE LAS REDES SOCIALES*/
 .segundofooter {/*BARRA NEGRA DEL FINAL*/
         background-color: rgb(27, 27, 27);
         display: flex;
-        flex-direction: column;
-        align-items: flex-end;
+}
+
+.segundofooter p {/*COLOR LETRAS DE LA BARRA NEGRA*/
+        color: white;
 }
