@@ -24,15 +24,28 @@ nav {/*FONDO DE BARRA DE NAVEGACION*/
         position: fixed;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         top: 0%;
         left: 0%;
         right: 0%;
         z-index: 10;
         }
 
-.Logoprincipal {/*LOGO DE SOUTH PARK*/
-        padding: 2% 7.5%;
+/* Ocultar label e input por defecto (desktop) */
+label {
+        display: none;
 }
+
+input {
+        display: none;
+}
+
+.Logo {
+        width: 250px;
+        padding-top: 10%;
+        margin-left: 50%;
+        padding-bottom: 10%;
+        }
 
 ul {/*LINKS DE EL NAV*/
         display: flex;
@@ -174,4 +187,121 @@ figure p {/*TEXTO AL LADO DE LAS IMAGENES DE LAS REDES SOCIALES*/
 
 .segundofooter p {/*COLOR LETRAS DE LA BARRA NEGRA*/
         color: white;
+}
+
+@media screen and (max-width: 900px) { /*TABLET*/
+
+        body { /*ESPACIO ENTRE EL NAV Y EL MAIN*/
+                padding-top: 100px;
+        }
+
+        nav { /*ORDENAMIENTO*/
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                padding: 15px 20px;
+        }
+
+        .Logoprincipal { /* UBICACION LOGO SOUTH PARK*/
+                padding: 0%;
+        }
+
+        .Logo { /*UBICACION IMAGEN Y TAMAÑO*/
+                width: 300px;
+                padding: 0%;
+                margin-left: 0%;
+        }
+
+        label { /*MENU HAMBRGUESA*/
+                display: block;
+                order: 2;
+                cursor: pointer;
+                padding: 10px;
+        }
+
+        label img { /*TAMAÑO MENU HAMBURGUESA*/
+                width: 50px;
+                height: auto;
+        }
+
+        ul { /*DESPLIEGUE MENU HAMBURGUESA*/
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                order: 3;
+                padding: 20px 0;
+                gap: 0;
+                background-color: #3d2213;
+        }
+
+        ul li { /*ORDEN DE LOS LINKS*/
+                width: 100%;
+                text-align: center;
+                padding: 15px 0;
+                border-bottom: 1px solid rgba(199, 182, 159, 0.3);
+        }
+
+        #menu_hamburguesa:checked ~ ul { /*VERIFICACION DEL CLICK EN EL MENU DE LA PAGINA*/
+                display: flex;
+        }
+
+        a { /*TAMAÑO DE LOS LINKS*/
+                font-size: 20px;
+        }
+
+        section { /*REUBICACION DEL MAIN*/
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+
+        .contenedorizquierdo { /*CAMBIO DE LOS BORDES*/
+                border: 3px solid #5f3620;
+                border-radius: 2%;
+
+        }
+
+        .contenedorderecho { /*CAMBIO DE LOS BORDES*/
+                border: 3px solid #5f3620;
+                border-radius: 2%;
+        }
+
+        article { /*UBICACION DE LAS CAJAS CONTENEDORAS*/
+                margin-right: 3%;
+                margin-left: 3%;
+                margin-bottom: 2%;
+        }
+        
+        h2 { /*UBICACION DEL TITULO FUERA DE LA CAJA CONTENEDORA*/
+                margin-left: 3%;
+                margin-top: 2%;
+                font-size: 130%;
+        }
+
+        p { /*CAMBIO DE TAMAÑO DE FUENTE MAIN*/
+                font-size: 100%;
+        }
+
+        h3 { /*CAMBIO DE TAMAÑO Y UBICACION SUBTITULOS*/
+                font-size: 120%;
+                padding-top: 1%;
+                padding-bottom: 1%;
+        }
+
+        .articulofooter { /*LARGO DE LAS CAJAS DEL FOOTER*/
+                padding: 10px;
+                margin: 1%;
+                margin-top: 2%;
+                text-align: start;
+        }
+
+        .segundofooter { /*LARGO DE LAS CAJAS DEL SEGUNDO FOOTER*/
+                font-size: 12px;
+                text-align: center;
+                padding-top: 2%;
+        }
+
+        figure { /*ESPACIO ENTRE LOS ICONOS DE LAS REDES SOCIALES Y EL TEXTO*/
+                gap:10px;
+        }
 }
