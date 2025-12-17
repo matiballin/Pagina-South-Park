@@ -38,7 +38,7 @@ h2{/*ESPACIO ENTRE TITULOS FUERA DE LA SECCION*/
     border: 3px solid #c7b69f;
 }
 
-@media screen and (max-width: 900px) { /*TABLET*/
+@media screen and (max-width: 950px) { /*TABLET*/
     h2 { /*UBICACION TITULOS FUERA DE LOS CONTENEDORES*/
         margin: 0%;
         padding-top: 4%;

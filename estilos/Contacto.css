@@ -84,7 +84,7 @@ fieldset {
     border: 0;
 }
 
-@media screen and (max-width: 900px) { /*TABLET*/
+@media screen and (max-width: 950px) { /*TABLET*/
     
     main {
         padding-top: 10%;
