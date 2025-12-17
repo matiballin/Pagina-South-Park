@@ -366,6 +366,30 @@ figure p {/*TEXTO AL LADO DE LAS IMAGENES DE LAS REDES SOCIALES*/
         label img {/*TAMAÑO MENU HAMBURGUESA*/
                 width: 25px;
         }
+
+        .articulofooter a {
+                font-size: 15px;
+        }
+
+        h6 {
+                font-size: 17px;
+        }
+
+        .articulofooter img {
+                height: 25px;
+        }
+
+        .segundofooter {
+                font-size: 12px;
+        }
+
+        .segundofooter img {
+                height: 40px;
+        }
+
+        figure p {
+                font-size: 10px;
+        }
 }
 
 @media screen and (max-width: 300px) { /*TELEFONO 2*/ 
@@ -389,6 +413,30 @@ figure p {/*TEXTO AL LADO DE LAS IMAGENES DE LAS REDES SOCIALES*/
 
         .Logo {
                 width: 150px;
+        }
+
+        .articulofooter a {
+                font-size: 10px;
+        }
+
+        h6 {
+                font-size: 12px;
+        }
+
+        .articulofooter img {
+                height: 20px;
+        }
+
+        .segundofooter {
+                font-size: 10px;
+        }
+
+        .segundofooter img {
+                height: 30px;
+        }
+
+        figure p {
+                font-size: 10px;
         }
 
 }
