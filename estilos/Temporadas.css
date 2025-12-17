@@ -55,7 +55,7 @@ article {/*SOBREESCRITURA PADDING GENERAL PARA LA PAGINA*/
     }
 
     article {/*SETEO TAMAÑO TABLET PARA Q NO DESBORDE*/
-        max-width: 800px;
+        max-width: fit-content;
         margin: 0 auto;
     }
 

@@ -53,8 +53,10 @@ h2{/*ESPACIO ENTRE TITULOS FUERA DE LA SECCION*/
         display: flex;
         justify-content: space-between;
         gap: 70px;
-        width: 800px;
+        width: fit-content;
     }
+    
+
 
     .contenedor3dobladores {/*REUBICACION DEL CONTENIDO DE LOS CONTENEDORES DE LOS DOBLADORES*/
         width: 800px;
@@ -62,6 +64,7 @@ h2{/*ESPACIO ENTRE TITULOS FUERA DE LA SECCION*/
         display: flex;
         justify-content: space-between;
         gap: 5px;
+        width: fit-content;
     }
 }
 
