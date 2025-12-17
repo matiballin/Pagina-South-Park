@@ -114,4 +114,38 @@ main {
     }
 }
 
+@media screen and (max-width: 300px) { /*TELEFONO 2*/ 
+
+        article {
+                width: fit-content;
+        }
+
+        main {
+                flex: 1;
+        }
+
+        footer {
+                width: fit-content;
+        }
+
+        .articulofooter {
+                width: fit-content;
+                text-align: center;
+        }
+
+        .Logo {
+                width: 150px;
+        }
+
+        .contenedorpersonajes img { /*TAMAÑO IMAGENES PERSONAJES*/
+            height: 75px;
+        }
+
+        section {
+            width: fit-content;
+        }
+
+        
+}
+
 

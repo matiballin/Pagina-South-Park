@@ -101,7 +101,7 @@ h2 {/*DISEÑO TITULOS */
         color: #5f3620;
         text-decoration: underline #3a6a8a;
         font-family: South-Park;
-        padding-bottom: 1.5%;
+        padding-bottom: 3%;
         padding-top: 1.5%;
 }
 
@@ -368,3 +368,27 @@ figure p {/*TEXTO AL LADO DE LAS IMAGENES DE LAS REDES SOCIALES*/
         }
 }
 
+@media screen and (max-width: 300px) { /*TELEFONO 2*/ 
+
+        article {
+                width: fit-content;
+        }
+
+        main {
+                flex: 1;
+        }
+
+        footer {
+                width: 100%;
+        }
+
+        .articulofooter {
+                width: fit-content;
+                text-align: center;
+        }
+
+        .Logo {
+                width: 150px;
+        }
+
+}

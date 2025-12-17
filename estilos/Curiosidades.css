@@ -34,3 +34,28 @@
         border-radius: 0%;
     }
 }
+
+@media screen and (max-width: 300px) { /*TELEFONO 2*/ 
+
+        article {
+                width: fit-content;
+        }
+
+        main {
+                flex: 1;
+        }
+
+        footer {
+                width: 100%;
+        }
+
+        .articulofooter {
+                width: fit-content;
+                text-align: center;
+        }
+
+        .Logo {
+                width: 150px;
+        }
+
+}

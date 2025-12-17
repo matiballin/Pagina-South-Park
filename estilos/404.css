@@ -89,3 +89,32 @@ article {
         height: 200px;
     }
 }
+
+@media screen and (max-width: 300px) { /*TELEFONO 2*/ 
+
+        article {
+                width: fit-content;
+        }
+
+        main {
+                flex: 1;
+        }
+
+        footer {
+                width: 100%;
+        }
+
+        .articulofooter {
+                width: fit-content;
+                text-align: center;
+        }
+
+        .contenedorerror img {
+            height: 100px;
+    }
+
+        .Logo {
+                width: 150px;
+        }
+
+}

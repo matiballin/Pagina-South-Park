@@ -71,3 +71,29 @@ h2 {
         height: 200px;
     }
 }
+
+@media screen and (max-width: 300px) { /*TELEFONO 2*/ 
+
+        article {
+                width: fit-content;
+                height: 400px;
+        }
+
+        main {
+                flex: 1;
+        }
+
+        footer {
+                width: 100%;
+        }
+
+        .articulofooter {
+                width: fit-content;
+                text-align: center;
+        }
+
+        .Logo {
+                width: 150px;
+        }
+
+}

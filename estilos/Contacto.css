@@ -1,5 +1,5 @@
 article {
-    width: 900px
+    width: fit-content;
 }
 
 label {
@@ -144,12 +144,21 @@ fieldset {
         flex: 1;
     }
 
-    article {
-        width: 450px;
+    footer {
+        width: 100%;
     }
+
+    .segundofooter {
+        width: 100%;
+    }
+
+    .articulofooter {
+        width: fit-content;
+        text-align: center;
+    }
+
     .contenedorformgeneral {
         padding-top: 2%;
-        max-width: px;
         margin-left: 5%;
         margin-right: 5%;
         padding-bottom: 1%;
@@ -160,4 +169,55 @@ fieldset {
         width: 100%;
         padding: 3%;
     }
+
+    .contenedorform1 input {
+        width: 100px;
+    }
+
+    .contenedorform2 input {
+        width: 100px;
+    }
+
+    .contenedorform2 textarea { 
+        width: 150px;
+    }
+
+    .contenedorformgeneral {
+        width: fit-content;
+    }
+
+}
+
+@media screen and (max-width: 300px) { /*TELEFONO 2*/ 
+
+        .contenedorformgeneral {
+                width: fit-content;
+        }
+
+        .contenedorform1 input {
+            width: 100px;
+        }
+
+        main {
+            flex: 1;
+            width: fit-content;
+        }
+
+        footer {
+            width: 100%;
+        }
+
+        .segundofooter {
+            width: 100%;
+
+        }
+
+        .articulofooter {
+            width: fit-content;
+            text-align: center;
+        }
+
+        .Logo {
+            width: 150px;
+        }
 }

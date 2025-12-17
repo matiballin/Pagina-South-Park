@@ -116,6 +116,14 @@ article {/*SOBREESCRITURA PADDING GENERAL PARA LA PAGINA*/
         margin-top: 2%;
     }
 
+    .buttersestatico {/*AJUSTE BUTTERS 1*/ 
+        height: 300px;
+    }
+
+    .buttersmov {/*AJUSTE BUTTERS 2*/ 
+        height: 300px;
+    }
+
 }
 
 @media screen and (max-width: 500px) { /*TELEFONO*/ 
@@ -130,14 +138,57 @@ article {/*SOBREESCRITURA PADDING GENERAL PARA LA PAGINA*/
     }
 
     .buttersestatico {/*AJUSTE BUTTERS 1*/ 
-        height: 300px;
+        height: 100px;
     }
 
     .buttersmov {/*AJUSTE BUTTERS 2*/ 
-        height: 300px;
+        height: 100px;
     }
     
     .articulofooter {/*TEXTO DE LOS CONTENEDORES DEL FOOTER CENTRADOS*/ 
         text-align: center;
     }
+}
+
+@media screen and (max-width: 300px) { /*TELEFONO 2*/ 
+
+    article {
+        width: fit-content;
+    }
+
+    main {
+        flex: 1;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .articulofooter {
+        width: fit-content;
+        text-align: center;
+    }
+
+    .Logo {
+        width: 150px;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedormini  {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttersestatico {/*AJUSTE BUTTERS 1*/ 
+        height: 100px;
+    }
+
+    .buttersmov {/*AJUSTE BUTTERS 2*/ 
+        height: 100px;
+    }
+
 }
