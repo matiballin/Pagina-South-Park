@@ -187,7 +187,7 @@ figure p {/*TEXTO AL LADO DE LAS IMAGENES DE LAS REDES SOCIALES*/
         color: white;
 }
 
-@media screen and (max-width: 950px) { /*TABLET*/
+@media screen and (max-width: 900px) { /*TABLET*/
 
         body { /*ESPACIO ENTRE EL NAV Y EL MAIN*/
                 padding-top: 100px;

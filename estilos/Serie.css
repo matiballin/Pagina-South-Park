@@ -16,7 +16,7 @@
     border-radius: 1%;
 }
 
-@media screen and (max-width: 950px) { /*TABLET*/
+@media screen and (max-width: 900px) { /*TABLET*/
 
     article {
         margin-left: 3%;

@@ -47,7 +47,7 @@ h4 {
     text-decoration: 1px underline;
 }
 
-@media screen and (max-width: 950px) { /*TABLET*/
+@media screen and (max-width: 900px) { /*TABLET*/
 
     main {
         display: flex;

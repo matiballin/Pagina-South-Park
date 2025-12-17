@@ -47,7 +47,7 @@ article {/*SOBREESCRITURA PADDING GENERAL PARA LA PAGINA*/
     border: 3px solid #c7b69f;
 }
 
-@media screen and (max-width: 950px) { /*TABLET*/
+@media screen and (max-width: 900px) { /*TABLET*/
 
     main { /*SETEO MARGENES TABLET*/
         margin-left: 5%;
