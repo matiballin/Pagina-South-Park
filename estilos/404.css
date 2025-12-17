@@ -1,3 +1,7 @@
+main {
+    flex: 1;
+}
+
 .contenedorerror {
     display: flex;
     justify-content: center;
@@ -8,6 +12,7 @@
 
 .contenedorerror img {
     border-radius: 2%;
+    height: 400px;
 }
 
 article {
@@ -55,6 +60,32 @@ h4 {
         align-items: center;
         padding-top: 10%;
         padding-bottom: 20%;
+        flex: 1;
     }
+
+    .contenedorerror img {
+    border-radius: 2%;
+    height: 200px;
 }
 
+article {
+    align-content: center;
+    width: 500px;
+    height: 400px;
+}
+}
+
+@media screen and (max-width: 500px) { /*TELEFONO*/
+
+    main {
+        flex: 1;
+    }
+
+    article {
+        width: 400px ;
+    }
+
+    .contenedorerror img {
+        height: 200px;
+    }
+}

@@ -5,6 +5,17 @@
     width: fit-content;
 }
 
+main {
+    flex: 1;
+}
+
+article, .seccioncreadores {
+    width: 100%;
+}
+
+article img {
+    width: fit-content;
+}
 .musica {
     text-align: center;
     padding-top: 2%;
@@ -16,13 +27,39 @@
     border-radius: 1%;
 }
 
+.contenedorderecho img {
+    width: 500px;
+}
+
+.seccioncreadores img {
+    width: 200px;
+}
+
 @media screen and (max-width: 900px) { /*TABLET*/
+
+    main {
+        flex: 1;
+    }
+
+    section {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    article, .seccioncreadores {
+    width: fit-content;
+    }
 
     article {
         margin-left: 3%;
         margin-right: 3%;
         padding-top: 1% ;
     }
+
+    .contenedorderecho img {
+        width: 500px;
+    }
+
     .seccioncreadores {/*ARREGLO SECCION DE LOS CREADORES*/
         margin-left: 3%;
         margin-right: 3%;
@@ -36,4 +73,36 @@
         margin-top: 1%;
     }
 
+    .seccioncreadores img {
+    width: 300px;
 }
+
+}
+
+@media screen and (max-width: 500px) { /*TELEFONO*/
+
+    main {
+        flex: 1;
+    }
+
+    article, .seccioncreadores {
+        width: fit-content;
+    }
+
+    article { /*BORDES ARTICULO ESCENARIO*/
+        border-radius: 0%;
+    }
+
+    .seccioncreadores {/*BORDES ARTICULO CREADORES*/
+        border-radius: 0%;
+    }
+
+    .contenedorizquierdo {
+        margin-bottom: 3%;
+    }
+
+    .contenedorderecho {
+        margin: 0;
+    }
+}
+

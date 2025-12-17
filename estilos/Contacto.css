@@ -1,10 +1,14 @@
 article {
-    width: 1300px;
+    width: 900px
 }
 
 label {
     padding-top: 1%;
     font-size: 18px;
+}
+
+.segundofooter {
+    margin-top: 0;
 }
 
 .menu_hamburguesa {
@@ -18,7 +22,6 @@ fieldset label {
 input {
     display: flex;
 }
-
 
 .contenedorformgeneral {
     padding: 3%;
@@ -88,15 +91,18 @@ fieldset {
     
     main {
         padding-top: 10%;
-        padding-bottom: 20%;
-        max-width: 800px;
+        padding-bottom: 5%;
+        max-width: 900px;
+        flex: 1;
+    }
+
+    article {
+        width: 500px;
     }
 
     fieldset label {
         display: none;
     }
-
-    
 
     .contenedorformgeneral {
         padding-top: 2%;
@@ -132,3 +138,26 @@ fieldset {
     }
 }
 
+@media screen and (max-width: 500px) { /*TELEFONO*/
+
+    main {
+        flex: 1;
+    }
+
+    article {
+        width: 450px;
+    }
+    .contenedorformgeneral {
+        padding-top: 2%;
+        max-width: px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 1%;
+    }
+
+        .contenedorform2 textarea {
+        height: 100px;
+        width: 100%;
+        padding: 3%;
+    }
+}

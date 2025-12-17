@@ -1,16 +1,31 @@
+main {
+    flex: 1;
+}
+
 article {/*SOBREESCRITURA PADDING GENERAL PARA LA PAGINA*/
     padding: 1% 1%;
+
 }
 
 .contenedorgrande article {/*CAJA TEXTO ARRIBA D LAS TEMPORADAS*/
     border-radius: 0px;
     border: none;
     padding: 0%;
+    width: fit-content;
 }
 
 .contenedormini {/*COLUMNAS TEMPORADAS*/
     display: flex;
-    height: fit-content;
+    width: fit-content;
+}
+
+.contenedorimagen {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorimagen img {
+    align-items: center;
 }
 
 .contenedormini article {/*CARACTERISTICAS TEXTO TEMPORADAS*/
@@ -22,10 +37,13 @@ article {/*SOBREESCRITURA PADDING GENERAL PARA LA PAGINA*/
 
 .contenedorimagen {/*CONTENEDOR BUTTERS*/
     padding-top: 3%;
-    width: 1300px;
+    width: fit-content;
     border: none;
     border-radius: 0px;
     text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .contenedorimagen img:hover {/*EFECTO OPACIDAD 0 PARA LA IMAGEN*/
@@ -52,15 +70,16 @@ article {/*SOBREESCRITURA PADDING GENERAL PARA LA PAGINA*/
     main { /*SETEO MARGENES TABLET*/
         margin-left: 5%;
         margin-right: 5%;
+        flex: 1;
     }
 
     article {/*SETEO TAMAÑO TABLET PARA Q NO DESBORDE*/
-        max-width: fit-content;
+        width: fit-content;
         margin: 0 auto;
     }
 
     .contenedorgrande { /*REUBICACION CONTENIDO MAIN (SIN LA FOTO)*/
-        max-width: 800px;
+        max-width: fit-content;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -69,7 +88,7 @@ article {/*SOBREESCRITURA PADDING GENERAL PARA LA PAGINA*/
     }
 
     .contenedorimagen {/*CONTENEDOR BUTTERS*/
-        width: 100%;
+        width: fit-content;
         max-width: 800px; 
         margin: 0 auto; 
         display: flex; 
@@ -78,10 +97,10 @@ article {/*SOBREESCRITURA PADDING GENERAL PARA LA PAGINA*/
     }
 
     .contenedormini article {/*CARACTERISTICAS TEXTO TEMPORADAS*/
-    justify-content: space-evenly;
-    margin-bottom: 5%;
-    padding: 2%;
-    width: 500px;
+        justify-content: space-evenly;
+        margin-bottom: 5%;
+        padding: 2%;
+        width: fit-content;
     }
 
     article p {/*ESPACIO ENTRE LAS TEMPORADAS*/
@@ -97,5 +116,28 @@ article {/*SOBREESCRITURA PADDING GENERAL PARA LA PAGINA*/
         margin-top: 2%;
     }
 
+}
 
+@media screen and (max-width: 500px) { /*TELEFONO*/ 
+
+    main {
+        flex: 1;
+    }
+
+    article {/*BORDES*/ 
+        border-radius: 0%;
+        width: 100%;
+    }
+
+    .buttersestatico {/*AJUSTE BUTTERS 1*/ 
+        height: 300px;
+    }
+
+    .buttersmov {/*AJUSTE BUTTERS 2*/ 
+        height: 300px;
+    }
+    
+    .articulofooter {/*TEXTO DE LOS CONTENEDORES DEL FOOTER CENTRADOS*/ 
+        text-align: center;
+    }
 }

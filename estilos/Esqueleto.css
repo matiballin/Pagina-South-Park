@@ -71,6 +71,7 @@ main { /*TAMAÑO DEL CONTENIDO*/
         max-height: fit-content;
         margin:auto;
         margin-bottom: 2%;
+        flex: 1;
 }
 
 section {/*CONTENEDORES EN COMLUMNA*/
@@ -112,7 +113,9 @@ h3 {/*SUBSTITULOS*/
 footer {/*DISEÑO FOOTER Y TAMAÑOS*/
         background-color: rgb(65, 64, 64);
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-evenly;
+        margin-top: auto;
 }
 
 .contenedorizquierdo {/*ESTRUCTURA*/
@@ -181,6 +184,7 @@ figure p {/*TEXTO AL LADO DE LAS IMAGENES DE LAS REDES SOCIALES*/
 .segundofooter {/*BARRA NEGRA DEL FINAL*/
         background-color: rgb(27, 27, 27);
         display: flex;
+        margin-top: 0;
 }
 
 .segundofooter p {/*COLOR LETRAS DE LA BARRA NEGRA*/
@@ -198,6 +202,10 @@ figure p {/*TEXTO AL LADO DE LAS IMAGENES DE LAS REDES SOCIALES*/
                 flex-wrap: wrap;
                 justify-content: space-between;
                 padding: 15px 20px;
+        }
+
+        main {
+                max-width: fit-content;
         }
 
         .Logoprincipal { /* UBICACION LOGO SOUTH PARK*/
@@ -287,11 +295,8 @@ figure p {/*TEXTO AL LADO DE LAS IMAGENES DE LAS REDES SOCIALES*/
                 padding-bottom: 1%;
         }
 
-        .articulofooter { /*LARGO DE LAS CAJAS DEL FOOTER*/
-                padding: 10px;
-                margin: 1%;
-                margin-top: 2%;
-                text-align: start;
+        .articulofooter { /*UBICACION TEXTOS DE LAS CAJAS DEL FOOTER*/
+                align-items: center;  
         }
 
         .segundofooter { /*LARGO DE LAS CAJAS DEL SEGUNDO FOOTER*/
@@ -300,7 +305,66 @@ figure p {/*TEXTO AL LADO DE LAS IMAGENES DE LAS REDES SOCIALES*/
                 padding-top: 2%;
         }
 
+        footer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+
         figure { /*ESPACIO ENTRE LOS ICONOS DE LAS REDES SOCIALES Y EL TEXTO*/
                 gap:10px;
         }
 }
+
+@media screen and (max-width: 500px) { /*TELEFONO*/
+        
+        .contenedorderecho {/*BORDES SECCION*/
+                border-radius: 0%;
+                margin-left: 5%;
+                margin-right: 5%;
+        }
+
+        .contenedorderecho img {/*IMGMAIN RESPONSIVE */
+                width: 100%;
+                height: auto;
+                max-width: 100%;
+                display: block;
+        }
+
+        .contenedorizquierdo {/*BORDES SECCION*/
+                border-radius: 0%;
+                font-size: 110%;         
+        }
+
+
+        h2 {/*UBICACION Y TAMAÑO TITULOS FUERA DEL CONTENEDOR*/
+                font-size: 140%;
+                text-align: center;
+        }
+
+        footer, .segundofooter {/*REUBICACION FOOTER*/
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+        }
+
+        .articulofooter {/*REUBICACION TEXTO FOOTER*/
+                align-items: center;
+        }
+
+        h3 {/*TAMAÑO SUBTITULO*/
+                font-size: 130%;
+                padding-top: 2%;
+                text-align: center;
+        }
+
+        .Logo {/*TAMAÑO LOGO SOUTH PARK NAV*/
+                width: 200px;
+        }
+
+        label img {/*TAMAÑO MENU HAMBURGUESA*/
+                width: 25px;
+        }
+}
+

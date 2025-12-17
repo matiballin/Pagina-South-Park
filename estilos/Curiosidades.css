@@ -12,3 +12,25 @@
 .articuloderecha {
     height: fit-content;
 }
+
+@media screen and (max-width: 900px) { /*TABLET*/  
+    .contenedorderecho img {
+        width: 400px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) { /*TELEFONO*/  
+    .contenedorderecho img {
+        width: 500px;
+        height: auto;
+    }
+
+    .articuloderecha {
+        border-radius: 0%;
+    }
+
+    article {
+        border-radius: 0%;
+    }
+}

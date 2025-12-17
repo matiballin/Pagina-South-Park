@@ -46,5 +46,28 @@ h2 {
         padding-bottom: 20%;
     }
 
+    article {
+        width: 500px;
+        height: 300px;
+    }
 
+    .contenedorkenny img {
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width: 500px) { /*TELEFONO*/
+
+    main {
+        flex: 1;
+    }
+
+    article {
+        width: 400px ;
+    }
+
+    .contenedorkenny img {
+        height: 200px;
+    }
 }
