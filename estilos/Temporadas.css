@@ -26,7 +26,6 @@ article {/*SOBREESCRITURA PADDING GENERAL PARA LA PAGINA*/
     border: none;
     border-radius: 0px;
     text-align: center;
-    
 }
 
 .contenedorimagen img:hover {/*EFECTO OPACIDAD 0 PARA LA IMAGEN*/
@@ -41,10 +40,62 @@ article {/*SOBREESCRITURA PADDING GENERAL PARA LA PAGINA*/
     background: white;
     border-radius: 6%;
     border: 3px solid #a27b66;
-    
 }
 
 .buttersmov {/*BORDES IMG ESTATICA*/
     border-radius: 6%;
     border: 3px solid #c7b69f;
+}
+
+@media screen and (max-width: 900px) { /*TABLET*/
+
+    main { /*SETEO MARGENES TABLET*/
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    article {/*SETEO TAMAÑO TABLET PARA Q NO DESBORDE*/
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .contenedorgrande { /*REUBICACION CONTENIDO MAIN (SIN LA FOTO)*/
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0%;
+        padding: 0%;
+    }
+
+    .contenedorimagen {/*CONTENEDOR BUTTERS*/
+        width: 100%;
+        max-width: 800px; 
+        margin: 0 auto; 
+        display: flex; 
+        justify-content: center; 
+        padding-top: 3%; 
+    }
+
+    .contenedormini article {/*CARACTERISTICAS TEXTO TEMPORADAS*/
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    padding: 2%;
+    width: 500px;
+    }
+
+    article p {/*ESPACIO ENTRE LAS TEMPORADAS*/
+        margin-bottom: 1%;
+    }
+
+    h2 { /*UBICACION TITULOS FUERA DE LOS CONTENEDORES*/
+        margin: 0%;
+        padding-top: 4%;
+    }
+
+    .contenedorderecho { /*ESPACIO ENTRE LA ULTIMA FT CON EL TEXTO DE ARRIBA*/
+        margin-top: 2%;
+    }
+
+
 }

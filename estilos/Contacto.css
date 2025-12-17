@@ -3,9 +3,22 @@ article {
 }
 
 label {
-padding-top: 1%;
-font-size: 18px;
+    padding-top: 1%;
+    font-size: 18px;
 }
+
+.menu_hamburguesa {
+    display: none;
+}
+
+fieldset label {
+    display: flex;
+}
+
+input {
+    display: flex;
+}
+
 
 .contenedorformgeneral {
     padding: 3%;
@@ -69,5 +82,53 @@ font-size: 18px;
 
 fieldset {
     border: 0;
+}
+
+@media screen and (max-width: 900px) { /*TABLET*/
+    
+    main {
+        padding-top: 10%;
+        padding-bottom: 20%;
+        max-width: 800px;
+    }
+
+    fieldset label {
+        display: none;
+    }
+
+    
+
+    .contenedorformgeneral {
+        padding-top: 2%;
+        max-width: 800px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 1%;
+    }
+
+    .contenedorform2 textarea {
+        height:100px;
+        width: 60%;
+    }
+
+    .contenedorform1 {
+        padding-bottom: 1%;
+    }
+
+    .contenedorform3 {
+        margin-top: 0%;
+    }
+
+    .contenedorform1 input {
+        padding: 2%;
+    }
+
+    .contenedorform2 input {
+        padding: 2%;
+    }
+
+    .contenedorform3 input {
+        padding: 2%;
+    }
 }
 

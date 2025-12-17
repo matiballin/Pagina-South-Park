@@ -15,3 +15,25 @@
     background-color:#a27b66;
     border-radius: 1%;
 }
+
+@media screen and (max-width: 900px) { /*TABLET*/
+
+    article {
+        margin-left: 3%;
+        margin-right: 3%;
+        padding-top: 1% ;
+    }
+    .seccioncreadores {/*ARREGLO SECCION DE LOS CREADORES*/
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .p2 {/*CAMBIO DE TAMAÑO TEXTO DE LOS CREADORES*/
+        font-size: 95%;
+    }
+
+    h2 {
+        margin-top: 1%;
+    }
+
+}

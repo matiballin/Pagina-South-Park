@@ -27,7 +27,6 @@ h2 {
 
 .contenedorboton a {
     margin: 3px;
-
 }
 
 .contenedorboton a:hover {
@@ -35,4 +34,17 @@ h2 {
     margin-top: 5px;
     text-decoration: 1px underline;
     
+}
+
+@media screen and (max-width: 900px) { /*TABLET*/
+    
+    main {
+        
+        justify-content: center;
+        align-items: center;
+        padding-top: 10%;
+        padding-bottom: 20%;
+    }
+
+
 }

@@ -1,4 +1,3 @@
-
 h2{/*ESPACIO ENTRE TITULOS FUERA DE LA SECCION*/
     padding-bottom: 1.5%;
     padding-top: 1.5%;
@@ -37,6 +36,33 @@ h2{/*ESPACIO ENTRE TITULOS FUERA DE LA SECCION*/
     border-radius: 8%;
     transform: scale(1.03);
     border: 3px solid #c7b69f;
+}
+
+@media screen and (max-width: 900px) { /*TABLET*/
+    h2 { /*UBICACION TITULOS FUERA DE LOS CONTENEDORES*/
+        margin: 0%;
+        padding-top: 4%;
+    }
+
+    main {/*RESETEO DE MARGENES GENERAL*/
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .contenedor2personajes {/*REUBICACION DEL CONTENIDO DE LOS CONTENEDORES DE LOS PERSONAJES*/
+        display: flex;
+        justify-content: space-between;
+        gap: 70px;
+        width: 800px;
+    }
+
+    .contenedor3dobladores {/*REUBICACION DEL CONTENIDO DE LOS CONTENEDORES DE LOS DOBLADORES*/
+        width: 800px;
+        height: fit-content;
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+    }
 }
 
 
