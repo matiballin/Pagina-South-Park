@@ -81,13 +81,22 @@ article {
         flex: 1;
     }
 
+    section { 
+        width: 300px;
+    }
+
     article {
         width: 400px ;
     }
 
-    .contenedorerror img {
-        height: 200px;
+    .contenedorerror {
+        width: 300px;
     }
+
+    .contenedorerror img {
+        height: 150px;
+    }
+
 }
 
 @media screen and (max-width: 300px) { /*TELEFONO 2*/ 
@@ -111,10 +120,39 @@ article {
 
         .contenedorerror img {
             height: 100px;
-    }
+        }
 
         .Logo {
                 width: 150px;
+        }
+
+        .contenedorboton {
+            width: 100px;
+            height: fit-content;
+            text-align: center;
+        }
+
+        .contenedorboton a {
+            font-size: 15px;
+        }
+
+        h4 {
+            font-size: 12px;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 12px;
+            text-align: center;
+        }
+
+        .contenedorerror {
+            width: 200px;
+            height: 250px;
+        }
+
+        section {
+            width: fit-content;
         }
 
 }

@@ -4,7 +4,9 @@ main {
 
 article {/*SOBREESCRITURA PADDING GENERAL PARA LA PAGINA*/
     padding: 1% 1%;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contenedorgrande article {/*CAJA TEXTO ARRIBA D LAS TEMPORADAS*/
@@ -29,7 +31,7 @@ article {/*SOBREESCRITURA PADDING GENERAL PARA LA PAGINA*/
 }
 
 .contenedormini article {/*CARACTERISTICAS TEXTO TEMPORADAS*/
-    width: 433px;
+    justify-content: space-evenly;
     border: none;
     border-radius: 0px;
     text-align: center;
@@ -63,6 +65,16 @@ article {/*SOBREESCRITURA PADDING GENERAL PARA LA PAGINA*/
 .buttersmov {/*BORDES IMG ESTATICA*/
     border-radius: 6%;
     border: 3px solid #c7b69f;
+}
+
+.contenedorgrande {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.contenedormini {
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 @media screen and (max-width: 900px) { /*TABLET*/
@@ -123,13 +135,17 @@ article {/*SOBREESCRITURA PADDING GENERAL PARA LA PAGINA*/
     .buttersmov {/*AJUSTE BUTTERS 2*/ 
         height: 300px;
     }
-
 }
 
 @media screen and (max-width: 500px) { /*TELEFONO*/ 
 
     main {
         flex: 1;
+    }
+
+    section {
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     article {/*BORDES*/ 
@@ -147,6 +163,10 @@ article {/*SOBREESCRITURA PADDING GENERAL PARA LA PAGINA*/
     
     .articulofooter {/*TEXTO DE LOS CONTENEDORES DEL FOOTER CENTRADOS*/ 
         text-align: center;
+    }
+
+    .contenedormini  {
+        font-size: 12px;
     }
 }
 

@@ -50,7 +50,6 @@ main {
         padding-top: 4%;
     }
 
-
     main {/*RESETEO DE MARGENES GENERAL*/
         margin-left: 5%;
         margin-right: 5%;
@@ -64,9 +63,8 @@ main {
 
     .contenedor2personajes {/*REUBICACION DEL CONTENIDO DE LOS CONTENEDORES DE LOS PERSONAJES*/
         display: flex;
-        justify-content: space-between;
-        gap: 70px;
         width: fit-content;
+        align-items: center;
     }
 
     .contenedor3dobladores {/*REUBICACION DEL CONTENIDO DE LOS CONTENEDORES DE LOS DOBLADORES*/
@@ -76,6 +74,10 @@ main {
         justify-content: space-between;
         gap: 5px;
         width: fit-content;
+    }
+
+    .contenedor2personajes img {
+        height: 166px;
     }
 }
 
@@ -96,21 +98,34 @@ main {
 
     .contenedorpersonajes {/*BORDES CONTENEDORES*/
         border-radius: 0%;
+        display: flex;
+        flex-direction: column;
     }
 
+
     .contenedorpersonajes img { /*TAMAÑO IMAGENES PERSONAJES*/
-        height: 170px;
+        height: 200px;
+    }
+
+    .contenedor3dobladores {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .contenedor2personajes {/*REUBICACION DEL CONTENIDO DE LOS CONTENEDORES DE LOS PERSONAJES*/
         display: flex;
-        justify-content: space-between;
-        font-size: 80%;
-        gap: 0;
+        flex-direction: column;
+        align-items: center;
+        font-size: 100%;
     }
 
     .contenedor3dobladores img {/*TAMAÑO IMAGENES DOBLADORES*/
         height: 200px;
+    }
+
+    .articulofooter  {
+        text-align: center;
     }
 }
 
@@ -121,11 +136,11 @@ main {
         }
 
         main {
-                flex: 1;
+            flex: 1;
         }
 
         footer {
-                width: fit-content;
+            max-width: 100%;
         }
 
         .articulofooter {
@@ -145,7 +160,6 @@ main {
             width: fit-content;
         }
 
-        
 }
 
 
